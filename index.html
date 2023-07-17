@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=Lobster&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagenes/favicon.ico" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Barra de Navegación-->
+
+      <div class="row">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Darío Semino</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active tituloNav"
+                    aria-current="page"
+                    href="#"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link tituloNav" href="#acerca">Acerca de mí</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link tituloNav" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--Tarjeta personal-->
+
+      <div class="row r2">
+        <div class="col-lg-12">
+          <div class="card mb-3 cardBio" style="max-width: 440px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="imagenes/dario.png"
+                  class="img-fluid rounded-start foto"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title titulo"></h5>
+                  <p class="card-text textoBio">
+                    - DARÍO SEMINO - <br />Dando los primeros pasos en
+                    Desarrollo Web con HTML, CSS y JAVASCRIPT.
+                  </p>
+                  <br />
+                </div>
+                <div class="socialIcons">
+                  <a
+                    href="https://www.facebook.com/orbis.libris/"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook socialIcons"></i
+                  ></a>
+                  &nbsp
+                  <a
+                    href="https://www.linkedin.com/in/dar%C3%ADo-semino-96a88920b/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin socialIcons"></i
+                  ></a>
+                  &nbsp
+                  <a
+                    href="https://www.instagram.com/orbislibris/"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram socialIcons"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <!--Trabajos -->
+
+      <div class="row r3">
+        <h1 id="tituloTrabajos">Mis trabajos</h1>
+
+        <!-- Color game -->
+        <div class="col-sm-4 col-lg-4">
+          <div class="ih-item circle effect15 proyecto">
+            <a
+              href="https://visionary-torte-5aa746.netlify.app"
+              target="_blank"
+            >
+              <div class="img">
+                <img src="imagenes/colores.png" alt="img" />
+              </div>
+              <div class="info">
+                <h3>Color Game</h3>
+                <p>Adivinando colores RGB</p>
+              </div></a
+            >
+          </div>
+          <br /><br /><br /><br />
+        </div>
+
+        <!-- Weather Channel -->
+        <div class="col-sm-4 col-lg-4">
+          <div class="ih-item circle effect15 proyecto">
+            <a href="https://silver-trifle-1c3372.netlify.app" target="_blank">
+              <div class="img">
+                <img src="imagenes/lluvia.jpeg" alt="img" />
+              </div>
+              <div class="info">
+                <h3>Weather Channel</h3>
+                <p>¿Cómo está el tiempo hoy?</p>
+              </div></a
+            >
+          </div>
+          <br /><br /><br /><br />
+        </div>
+
+        <!-- To do list -->
+        <div class="col-sm-4">
+          <div class="ih-item circle effect15 proyecto">
+            <a
+              href="https://gleaming-kashata-7988d1.netlify.app"
+              target="_blank"
+            >
+              <div class="img"><img src="imagenes/lista.jpg" alt="img" /></div>
+              <div class="info">
+                <h3>To Do List</h3>
+                <p>Tengo mil cosas para hacer</p>
+              </div></a
+            >
+          </div>
+          <br /><br /><br />
+        </div>
+      </div>
+
+      <!--Acerca de mí-->
+
+      <div class="row r4">
+        <div class="col-sm-12 col-lg-12 cardAcerca" id="acerca">
+          <h1 class="bio" id="bioTit">Acerca de mí</h1>
+          <p class="bio">
+            Me desempeñé siempre en actividades vinculadas con la escritura y el
+            mundo de la cultura. Trabajé como librero en la librería La Libre de
+            Buenos Aires, durante casi diez años. Publiqué libros de teatro,
+            poesía y narrativa. Actualmente me dedico a realizar traducciones
+            literarias del inglés y francés. Además estoy dando mis primeros
+            pasos como desarrollador web. Soy administrador y autor del sitio
+            <a
+              href="https://orbislibris.com/"
+              target="_blank"
+              class="linkOrbis"
+            >
+              orbislibris.com</a
+            >, en el que comparto reseñas y artículos sobre libros de
+            literatura, mitología y filosofía.
+          </p>
+        </div>
+      </div>
+
+      <!--Formulario de contacto-->
+
+      <div class="row r5">
+        <div class="col-sm-12 col-lg-12 form">
+          <form action="https://formspree.io/f/xpzbyydq" method="POST">
+            <div class="mb-3">
+              <h3 id="contacto">Contacto</h3>
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre</label
+              >
+              <input
+                type="text"
+                name="nombre"
+                required
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Número de teléfono</label
+              >
+              <input
+                type="text"
+                name="telefono"
+                required
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Correo Electrónico</label
+              >
+              <input
+                type="email"
+                name="mail"
+                required
+                class="form-control"
+                id="exampleFormControlInput1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                name="presentcion"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <input
+              class="btn btn-primary"
+              id="botonEnviar"
+              type="submit"
+              value="Enviar"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="row r6">
+        <div class="col-sm-2 col-lg-2 f1">
+          - Copyrigth - <br />
+          Darío Semino - Piedras 180 <br />
+          CABA - Argentina
+        </div>
+        <div class="col-sm-2 col-lg-2 f2">
+          <div class="socialIcons">
+            <a href="https://www.facebook.com/orbis.libris/" target="_blank"
+              ><i class="fa-brands fa-facebook socialIcons2"></i
+            ></a>
+            &nbsp
+            <a
+              href="https://www.linkedin.com/in/dar%C3%ADo-semino-96a88920b/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin socialIcons2"></i
+            ></a>
+            &nbsp
+            <a href="https://www.instagram.com/orbislibris/" target="_blank"
+              ><i class="fa-brands fa-instagram socialIcons2"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Cierra container principal-->
+
+    <script
+      src="https://kit.fontawesome.com/59a4fd2baa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
